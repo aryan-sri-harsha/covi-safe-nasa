@@ -1,0 +1,64 @@
+.start-page {
+  visibility: visible;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: wheat;
+}
+.space {
+  min-height: 30%;
+}
+.home {
+  min-height: 100%;
+  background-color:yellowgreen;
+}
+.logo {
+  height: 10vh;
+  width: 10vw;
+}
+.link {
+    text-decoration: none;
+}
+@keyframes circle-mov{
+    from {position:relative;left:1rem}
+    to{position:relative;left:19rem}
+    }
+@keyframes circle-mov2{
+        
+    from{position:relative;left:19rem}
+    to {position:relative;left:1rem}
+    }
+.circle{
+    
+        height: 3rem;
+        width: 3rem;
+        background-color: wheat;
+        border-radius: 50%;
+        display: inline-block;
+        animation: circle-mov ;
+        animation-duration: 5s;
+        animation-delay: 0ms;
+        animation-iteration-count: infinite;
+      
+}
+.circle2{
+    height: 3rem;
+        width: 3rem;
+        background-color: wheat;
+        border-radius: 50%;
+        display: inline-block;
+        animation: circle-mov2 ;
+        animation-duration: 5s;
+        animation-delay: 0ms;
+        animation-iteration-count: infinite;
+}
+.horizontal-space{
+  min-width: 10%;
+}
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
